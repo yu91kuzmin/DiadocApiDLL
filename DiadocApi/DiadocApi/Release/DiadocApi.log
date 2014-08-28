@@ -1,0 +1,75 @@
+﻿Построение начато 27.08.2014 18:13:41.
+     1>Проект "C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\DiadocApi\DiadocApi.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DIADOCAPI_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\DiadocApi.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DIADOCAPI_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Address.pb.cc Content.pb.cc DiadocApi.cpp DocumentId.pb.cc Documents\AcceptanceCertificateDocument.pb.cc Documents\BilateralDocument.pb.cc Documents\Document.pb.cc Documents\DocumentList.pb.cc Documents\InvoiceDocument.pb.cc Documents\NonformalizedDocument.pb.cc Documents\ReceiptStatus.pb.cc Documents\UnilateralDocument.pb.cc DocumentType.pb.cc Events\DiadocMessage.GetApi.pb.cc Events\DiadocMessage.PostApi.pb.cc Events\ResolutionInfo.pb.cc Events\ResolutionRequestDenialInfo.pb.cc Events\ResolutionRequestInfo.pb.cc ForwardDocumentEvent.pb.cc Organization.pb.cc ResolutionTarget.pb.cc Timestamp.pb.cc
+         Address.pb.cc
+         Content.pb.cc
+         DiadocApi.cpp
+     1>DiadocApi.cpp(62): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(449): см. объявление "getenv"
+     1>DiadocApi.cpp(65): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(85): см. объявление "swprintf"
+     1>DiadocApi.cpp(117): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(449): см. объявление "getenv"
+     1>DiadocApi.cpp(121): warning C4018: <: несоответствие типов со знаком и без знака
+         DocumentId.pb.cc
+         AcceptanceCertificateDocument.pb.cc
+         BilateralDocument.pb.cc
+         Document.pb.cc
+         DocumentList.pb.cc
+         InvoiceDocument.pb.cc
+         NonformalizedDocument.pb.cc
+         ReceiptStatus.pb.cc
+         UnilateralDocument.pb.cc
+         DocumentType.pb.cc
+         DiadocMessage.GetApi.pb.cc
+         DiadocMessage.PostApi.pb.cc
+         ResolutionInfo.pb.cc
+         ResolutionRequestDenialInfo.pb.cc
+         ResolutionRequestInfo.pb.cc
+         ForwardDocumentEvent.pb.cc
+         Organization.pb.cc
+         Компиляция...
+         ResolutionTarget.pb.cc
+         Timestamp.pb.cc
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DIADOCAPI_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\Release\DiadocApi.dll" /INCREMENTAL:NO /NOLOGO msvcrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\Release\DiadocApi.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\Release\DiadocApi.lib" /MACHINE:X86 /SAFESEH /DEF:DiadocApi.def /DLL Release\Address.pb.obj
+         Release\Content.pb.obj
+         Release\DiadocApi.obj
+         Release\dllmain.obj
+         Release\DocumentId.pb.obj
+         Release\AcceptanceCertificateDocument.pb.obj
+         Release\BilateralDocument.pb.obj
+         Release\Document.pb.obj
+         Release\DocumentList.pb.obj
+         Release\InvoiceDocument.pb.obj
+         Release\NonformalizedDocument.pb.obj
+         Release\ReceiptStatus.pb.obj
+         Release\UnilateralDocument.pb.obj
+         Release\DocumentType.pb.obj
+         Release\DiadocMessage.GetApi.pb.obj
+         Release\DiadocMessage.PostApi.pb.obj
+         Release\ResolutionInfo.pb.obj
+         Release\ResolutionRequestDenialInfo.pb.obj
+         Release\ResolutionRequestInfo.pb.obj
+         Release\ForwardDocumentEvent.pb.obj
+         Release\Organization.pb.obj
+         Release\ResolutionTarget.pb.obj
+         Release\stdafx.obj
+         Release\Timestamp.pb.obj
+            Создается библиотека C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\Release\DiadocApi.lib и объект C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\Release\DiadocApi.exp
+         Создание кода
+     1>c:\users\yury\documents\visual studio 2012\projects\diadocapi\diadocapi\diadocapi.cpp(240): warning C4715: DiadocSendMessage: значение возвращается не при всех путях выполнения
+     1>c:\users\yury\documents\visual studio 2012\projects\diadocapi\diadocapi\diadocapi.cpp(178): warning C4715: DiadocGetMyOrganizations: значение возвращается не при всех путях выполнения
+     1>c:\users\yury\documents\visual studio 2012\projects\diadocapi\diadocapi\diadocapi.cpp(96): warning C4715: DiadocFindAndSaveDocuments: значение возвращается не при всех путях выполнения
+         Создание кода завершено
+         DiadocApi.vcxproj -> C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\Release\DiadocApi.dll
+     1>Построение проекта "C:\Users\Yury\Documents\Visual Studio 2012\Projects\DiadocApi\DiadocApi\DiadocApi.vcxproj" завершено (целевые объекты Rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:40.47

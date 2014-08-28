@@ -1,0 +1,7 @@
+LIBRARY     DIADOCAPI.DLL
+
+EXPORTS
+    DiadocAuth					@1   
+    DiadocFindAndSaveDocuments	@2   
+    DiadocGetMyOrganizations	@3   
+    DiadocSendMessage			@4   
